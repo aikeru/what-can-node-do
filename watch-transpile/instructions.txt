@@ -1,0 +1,16 @@
+How to use gulp-watch to automagically transpile your files.
+
+1. Install dependencies 
+
+sudo npm install -g gulp
+sudo npm install gulp --save-dev
+sudo npm install gulp-traceur --save-dev
+sudo npm install gulp-watch --save-dev
+sudo npm install gulp-sass --save-dev
+
+2. Create Gulpfile.js
+
+Use the example or follow docs with gulp-watch, gulp-traceur and gulp-sass.
+
+3. Write some code, and run your gulp task
+

@@ -1,0 +1,22 @@
+How to use Selenium with node.js
+
+1. Download the Chrome WebDriver from
+
+https://code.google.com/p/selenium/wiki/WebDriverJs
+
+2. Install selenium-webdriver
+
+sudo npm install --save-dev selenium-webdriver
+
+2. Follow instructions on WebDriverJs docs:
+
+https://code.google.com/p/selenium/wiki/WebDriverJs
+
+The WebDriverJs matches the WebDriver pretty closely, except that it is adapted for JavaScript.
+
+One way to learn about the API is by looking directly inside the WebDriverJs wrapper code.
+
+This will be under your node_modules folder.
+
+If you execute the sample, it will pop open Chrome with Google.com and close quickly.
+

@@ -1,0 +1,26 @@
+To run qunit unit tests via "gulp test"...
+
+1. Install gulp globally
+
+sudo npm install -g gulp
+
+If it's broken on Ubuntu, it may be looking for "node" instead of "nodejs".
+A quick fix to this is 'sudo cp /usr/bin/nodejs /usr/bin/node'
+
+2. Install local gulp
+
+sudo npm install gulp --save-dev
+
+3. Install gulp-qunit
+
+sudo npm install gulp-qunit --save-dev
+
+4. Create necessary files
+
+- You need a Gulpfile.js with a 'test' task set to run qunit tests.
+- You need a test runner HTML file (see the example or qunit docs)
+- You might consider downloading the qunit.js and .css files
+- Reference any necessary dependencies with <script> tags. PhantomJS can load them from the filesystem.
+
+My example includes a sample passing and failing test that get run by PhantomJS.
+

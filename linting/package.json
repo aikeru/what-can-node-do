@@ -1,0 +1,15 @@
+{
+  "name": "linting",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Ms-Pl",
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-jshint": "~1.9.0"
+  }
+}

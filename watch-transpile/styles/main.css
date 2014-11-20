@@ -1,0 +1,7 @@
+/* This is a cool scss file! */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }

@@ -1,0 +1,19 @@
+How to run jshint from 'gulp lint'
+
+1. Install gulp globally
+
+sudo npm install gulp -g
+
+2. Install gulp local
+
+sudo npm install gulp
+
+3. Install gulp-jshint
+
+sudo npm install gulp-jshint --save-dev
+
+4. Make a Gulpfile.js
+
+Look at the sample or look up the gulp-jshint package in npm.
+Point it at the code you want to lint, using "glob" syntax.
+
